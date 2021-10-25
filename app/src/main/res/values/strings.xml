@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Food preservation</string>
+    <string name="opendrawer">opendrawer</string>
+    <string name="closedrawer">closedrawer</string>
+    <string name="food_preservation_methods">FOOD PRESERVATION METHODS</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

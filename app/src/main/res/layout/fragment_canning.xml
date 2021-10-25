@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".canning">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/canning1"
+            android:layout_marginLeft="40dp"/>
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Canning is an important, safe method of food preservation if practiced properly. The canning process involves placing foods in jars and heating them to a temperature that destroys microorganisms that could be a health hazard or cause the food to spoil.Canneries are usually located close to the growing areas of the product to be packed, since it is desirable to can foods as quickly as possible after harvesting. The canning process itself consists of several stages: cleaning and further preparing the raw food material; blanching it; filling the containers, usually under a vacuum; closing and sealing the containers; sterilizing the canned products; and labeling and warehousing the finished goods. Cleaning usually involves passing the raw food through tanks of water or under high-pressure water sprays, after which vegetable or other products are cut, peeled, cored, sliced, graded, soaked, pureed, and so on. Almost all vegetables and some fruits require blanching by immersion in hot water or steam; this process softens the vegetable tissues and makes them pliable enough to be packed tightly, while also serving to inactivate enzymes that can cause undesirable changes in the food before canning. Blanching also serves as an additional or final cleansing operation."
+            android:textStyle="bold"
+            android:layout_margin="10dp"
+            android:textSize="15sp"
+            android:layout_below="@id/image"/>
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFD600"
+            android:text="The three scientifically tested and approved methods of canning for home food preservation are"
+            android:textStyle="bold"
+            android:layout_margin="10dp"
+            android:textSize="15sp"
+            android:layout_below="@id/text1"/>
+        <TextView
+            android:id="@+id/text3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1.Pressure Canner "
+            android:textColor="#64DD17"
+            android:textAllCaps="true"
+            android:layout_margin="10dp"
+            android:textSize="15sp"
+            android:layout_below="@id/text2"/>
+        <ImageView
+            android:id="@+id/image1"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/canning5"
+            android:layout_marginLeft="40dp"
+            android:layout_below="@id/text3"/>
+
+        <TextView
+            android:id="@+id/text4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="A pressure canner is a sealed unit that when heated builds up pressure inside increasing the temperature. Pressure canning is a must for processing low acid vegetables and meats. Low acid vegetables include all vegetables except acidified tomatoes, pickles and sauerkraut. Low acid foods can support the growth of botulism spores that can survive the boiling point of water. The temperature inside a weighted gauge pressure canner at 10 pounds pressure and in a dial gauge pressure canner at 11 pounds is 240°F at sea level which is adequate to destroy botulism spores—a potential source of deadly food borne illness
+
+Types of Pressure Canners
+A dial gauge pressure canner has a dial that indicates the pressure inside.
+
+As heat and pressure increase inside the canner the dial rises.
+Gauges may indicate each ½ or 1-pound increment; others mark only 5-pound increments leaving the user to determine the pounds in between.
+A dial gauge allows the user to determine pressure increments for higher altitudes. At altitudes of 2,000 feet or below, pressure should be 11 pounds for meats and vegetables, and 6 pounds for fruits.
+It is necessary to monitor the gauge and adjust heat when it is in use to maintain the correct pressure.
+It is recommended that dial gauges be checked for accuracy each year. Contact your local Penn State Extension Office for testing information
+A weighted gauge pressure canner has a weight that controls the pressure.
+
+One type of weight is a flat disk with 5, 10, and 15-pound markings.
+Another type consists of three metal rings that sit on top of each other; for 5 pounds only one ring is used; an additional ring is added for each additional 5 pounds.
+When the pressure inside a weighted gauge canner is reached, the weight will  indicating the proper temperature inside. Some weights jiggle 3 or 4 times a minute; others jiggle continuously. Consult the manufacturer's directions for the canner you are using.
+Because you can hear the jiggles, you can monitor the pressure without being constantly beside the canner.
+Weighted gauge pressure canners process meats and vegetables at 10 pounds pressure and fruits at 5 pounds pressure. At altitudes above 1,000 feet it is necessary to increase the pressure by 5 pounds.
+Weighted gauge canners do not need tested for accuracy."
+            android:textSize="15sp"
+            android:layout_below="@+id/image1"/>
+        <TextView
+            android:id="@+id/text5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="2.Boiling Water Canners"
+            android:textColor="#64DD17"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:layout_margin="10dp"
+            android:textSize="15sp"
+            android:layout_below="@id/text4"/>
+        <ImageView
+            android:id="@+id/image2"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/canning3"
+            android:layout_marginLeft="40dp"
+            android:layout_below="@id/text5"/>
+        <TextView
+            android:id="@+id/text6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="A water bath canner surrounds the jars of food with boiling water, transferring the heat into the jar of food. Fruits, acidified tomatoes, pickled products, and jams and jellies can be safely processed in a boiling water bath.
+
+Jars need to be totally surrounded by the boiling water.
+A rack is needed to allow water to circulate under the jars.
+There needs to be space at the top of the canner so that jars can be covered with one to two inches of water.
+The canner needs a lid.
+A boiling water bath canner may be purchased, or you can create a water bath canner from equipment you already have. You need a pot that is deep enough so there is space for a rack, the jars, and at least one inch of water above the jars, and room for the water to boil rapidly without boiling over."
+            android:layout_margin="10dp"
+            android:textSize="15sp"
+            android:layout_below="@id/image2"/>
+        <TextView
+            android:id="@+id/text7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3.Atmospheric Steam Canners"
+            android:textAllCaps="true"
+            android:textColor="#64DD17"
+            android:layout_margin="10dp"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_below="@id/text6"/>
+        <ImageView
+            android:id="@+id/image3"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/canning4"
+            android:layout_marginLeft="40dp"
+            android:layout_below="@id/text7"/>
+        <TextView
+            android:id="@+id/text8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Atmospheric steam canning is the latest method approved for home food preservation. Research conducted by the University of Wisconsin shows that steam in an atmospheric steam canner reaches the temperature of boiling water (212º F) and is safe for processing high acid foods the same as boiling water.
+
+An atmospheric steam canner usually has a low base with a rack and a tall lid that fits over the jars.
+The lid has one or two holes near the base that allows steam to escape.
+The lid needs to be left in place and the canner heated to force air out of the canner until a column of steam forms that is 6 to 8 inches long. Steam is hotter than air.
+Foods processed in boiling water can be safely processed in an atmospheric steam canner. Processing times are the same."
+            android:layout_margin="10dp"
+            android:textSize="15sp"
+            android:layout_below="@id/image3"/>
+        <TextView
+            android:id="@+id/text9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tips for Getting the Most Out of Homemade Canning"
+            android:layout_margin="10dp"
+            android:textColor="#FFD600"
+            android:textStyle="bold"
+            android:layout_below="@+id/text8"
+            android:textSize="15sp"/>
+        <TextView
+            android:id="@+id/text10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Use fresh produce. Can your fruits and vegetables when they are in peak condition, any bruised or overripe produce should be avoided.
+A boiling water bath or pressure canner? Acidic foods like pickles, preserves and tomatoes may be preserved in a boiling water bath. But non-acidic foods like soup stocks, unpickled vegetables and meat must be canned in special equipment, called a pressure canner.
+Fill the jars while they are still hot. Pack hot food into jars one at a time, leaving room at the top for closure. Place it back in the simmering water once it’s been filled.
+Listen for popping sounds. Once the jar has properly sealed, you should hear a popping sound and the lid should no longer pop up.
+Overfilling jars. A good recipe will instruct you to leave headspace between the surface of the food and rim of jar. If you fill jars too high, the canning lids will not seal properly. Unsealed jars aren’t dealbreakers, you can transfer it to a refrigerator to use within a few days, or reprocess with enough head space to seal.
+Most PopularFood"
+            android:layout_margin="10dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text9"
+            android:textSize="15sp"/>
+    </RelativeLayout>
+</ScrollView>

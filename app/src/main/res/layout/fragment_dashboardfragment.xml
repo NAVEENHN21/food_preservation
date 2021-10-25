@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".dashboardfragment">
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+
+   <ImageView
+      android:id="@+id/dash1"
+       android:layout_width="400dp"
+       android:layout_height="400dp"
+       android:src="@drawable/dash1"
+       android:layout_centerHorizontal="true"/>
+   <ImageView
+       android:id="@+id/dash2"
+       android:layout_width="400dp"
+       android:layout_height="400dp"
+       android:src="@drawable/dash2"
+       android:layout_below="@+id/dash1"
+       android:layout_centerHorizontal="true"/>
+      <ImageView
+          android:id="@+id/dash3"
+          android:layout_width="400dp"
+          android:layout_height="400dp"
+          android:src="@drawable/dash3"
+          android:layout_below="@+id/dash2"
+          android:layout_centerHorizontal="true"/>
+      <ImageView
+          android:id="@+id/dash4"
+          android:layout_width="400dp"
+          android:layout_height="400dp"
+          android:src="@drawable/dash4"
+          android:layout_below="@+id/dash3"
+          android:layout_centerHorizontal="true"/>
+      <ImageView
+          android:id="@+id/dash5"
+          android:layout_width="400dp"
+          android:layout_height="400dp"
+          android:src="@drawable/dash5"
+          android:layout_below="@+id/dash4"
+          android:layout_centerHorizontal="true"/>
+      <TextView
+          android:id="@+id/text6"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:text="Food Preservation"
+          android:textAllCaps="true"
+          android:textSize="20sp"
+         android:textColor="#2962FF"
+          android:layout_below="@+id/dash5"
+          android:padding="15sp"/>
+         <TextView
+             android:id="@+id/text7"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+            android:text="Food Preservation is a process in which \n
+
+•!•Food and vegetables are prevented from getting spoilt \n
+•!•The color, test, and nutritive values of food	is also preserved \n
+•!•Food products lasts for a long period of time: Shelf life of food product is increased
+"
+             android:padding="15sp"
+             android:textSize="18sp"
+             android:layout_below="@+id/text6"/>
+      <TextView
+          android:id="@+id/text8"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:text="So, We can defined Food Preservation as:\n"
+          android:textSize="20sp"
+          android:textColor="#FFD600"
+          android:layout_below="@+id/text7"
+          android:padding="15sp"/>
+      <TextView
+          android:id="@+id/text9"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:text="Retaining food over a period of time without being contaminated by pathogenic organisms or chemicals and without  losing its colour, texture, flavour and nutritious value.\n
+Food Preservation usually involves preventing the growth of bacteria, fungi and other microorganisms, as well as retard ing the oxidation of fatswhich causes rancidity"
+          android:textSize="18sp"
+          android:layout_below="@+id/text8"
+          android:padding="15sp"/>
+      <ImageView
+          android:id="@+id/dash6"
+          android:layout_width="400dp"
+          android:layout_height="400dp"
+          android:src="@drawable/screenshot"
+          android:layout_below="@+id/text9"
+          android:layout_centerHorizontal="true"/>
+      <TextView
+          android:id="@+id/text10"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:text="Types of foods"
+          android:textAllCaps="true"
+          android:textColor="#0091EA"
+          android:textSize="18sp"
+          android:layout_below="@+id/dash6"
+          android:padding="15sp"/>
+      <ImageView
+          android:id="@+id/dash7"
+          android:layout_width="400dp"
+          android:layout_height="400dp"
+          android:src="@drawable/dashh7"
+          android:layout_below="@+id/text10"
+          android:layout_centerHorizontal="true"/>
+      <TextView
+          android:id="@+id/text12"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:text="Types of foods"
+          android:textAllCaps="true"
+          android:textColor="#AEEA00"
+          android:textSize="18sp"
+          android:layout_below="@+id/dash7"
+          android:padding="15sp"/>
+      <TextView
+          android:id="@+id/text11"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:text="•	Perishable \n
+-	Lasts for less time 2 days to 1week\n
+-	Example: Fruits, milk, vegetables, meat\n
+•	Semi perishable\n
+-	Lasts for around 2 months and are processed\n
+-	Example: Ice-cream, cheese, bread, cake, pastries\n
+•	Shelf Stable\n
+-	Has longer shelf Life more than 6 months\n
+-	Example: Food grains"
+android:textSize="18sp"
+          android:layout_below="@+id/text12"
+          android:padding="15sp"/>
+      <ImageView
+          android:id="@+id/dash8"
+          android:layout_width="400dp"
+          android:layout_height="400dp"
+          android:src="@drawable/dash8"
+          android:layout_below="@+id/text11"
+          android:layout_centerHorizontal="true"/>
+      <TextView
+          android:id="@+id/text13"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:text="principles of Food Preservation"
+          android:textAllCaps="true"
+          android:textColor="#00BFA5"
+          android:textSize="18sp"
+          android:layout_below="@+id/dash8"
+          android:padding="15sp"/>
+      <TextView
+          android:id="@+id/text14"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:text="1.	Inhibit the growth and activity of Microorganisms\n
+-Asepsis(to keep out microorganisms)\n
+-Removal of microorganisms\n
+-Stopping the growth and activity of microorganisms (low temperatures, drying or chemicals)\n
+-Destruction of MO( heating or radiation)\n \n
+2.	Protecting against self decomposition of food\n
+-Inhibit the activity of Endogenous Enzyme (Phenolase)\n
+-Delay or inhibit chemical reactions( Non-enzymatic browning)\n \n
+
+3.	Protection from invasion and spoilage by insects and rodents\n \n
+4.	Protection against losses by mechanical causes
+"
+          android:textSize="18sp"
+          android:layout_below="@+id/text13"
+          android:padding="15sp"/>
+      <TextView
+          android:id="@+id/text15"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:text="importance of Food Preservation:"
+          android:textAllCaps="true"
+          android:textColor="#DD2C00"
+          android:textSize="18sp"
+          android:layout_below="@+id/text14"
+          android:padding="15sp"/>
+      <TextView
+          android:id="@+id/text16"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:text="Important	and	vital	in	the	Food	industry	due	to	a number of -
+social, psychological, and health factors,\n
+.	Increases the shelf life of food\n
+->	Retain the quality of food - colour, texture, flavour
+and nutritional value\n
+Increases food supply Adds variety to the food\n
+->	Decreases  wastage  of  food\n
+->	Make  foods available  throughout  the year
+
+"
+          android:textSize="18sp"
+          android:layout_below="@+id/text15"
+          android:padding="15sp"/>
+      <TextView
+          android:id="@+id/text17"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:text="food Preservation Methods:"
+          android:textAllCaps="true"
+          android:textColor="#64DD17"
+          android:textSize="18sp"
+          android:layout_below="@+id/text16"
+          android:padding="15sp"/>
+      <TextView
+          android:id="@+id/text18"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:text="• Preservation methods vary according to the food items' and
+ quantity of the items to be preserved \n
+
+••Principles of Food preservation can be broadly classified into two types:\n
+1)	Bactericidal methods\n
+2)	Bacteriostatic methods\n
+
+"
+          android:textSize="18sp"
+          android:layout_below="@+id/text17"
+          android:padding="15sp"/>
+      <TextView
+          android:id="@+id/text19"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:text="Bactericidal methods:"
+          android:textAllCaps="true"
+          android:textColor="#304FFE"
+          android:textSize="18sp"
+          android:layout_below="@+id/text18"
+          android:padding="15sp"/>
+      <TextView
+          android:id="@+id/text20"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:text="•Most of the microorganisms are killed .\n
+.Examples are-\n
+o cooking,\n
+o canning,\n
+o pasteurization, and sterilization,\n
+o irradiation etc.
+
+
+"
+          android:textSize="18sp"
+          android:layout_below="@+id/text19"
+          android:padding="15sp"/>
+      <TextView
+          android:id="@+id/text21"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:text="Bacteriostatic methods:"
+          android:textAllCaps="true"
+          android:textColor="#304FFE"
+          android:textSize="18sp"
+          android:layout_below="@+id/text20"
+          android:padding="15sp"/>
+      <TextView
+          android:id="@+id/text22"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:text="•Based on the prevention of multiplication of microorganisms
+May be achieved by\n
+---->removal of water\n
+---->use of acids, oils or spices\n
+---->keeping the foodstuff in low temperature Methods based on this principles are\n
+---->Drying,\n
+---->freezing,\n
+---->pickling,\n
+---->salting, and\n
+---->smoking.\n
+"
+          android:textSize="18sp"
+          android:layout_below="@+id/text21"
+          android:padding="15sp"/>
+      <TextView
+          android:id="@+id/text23"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:text="Techniques of Food Preservation:"
+          android:textAllCaps="true"
+          android:textColor="#FFAB00"
+          android:textSize="18sp"
+          android:layout_below="@+id/text22"
+          android:padding="15sp"/>
+      <TextView
+          android:id="@+id/text24"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:text="•Physical\n
+•Chemical\n
+Physical\n
+--freezing and canning(rely on killing
+the microorganisms or at least stopping the their growth for long enough)\n
+--drying, gamma irradiation, exposure to ultraviolet or high intensity white light, ultra high pressure and filtration\n
+Chemical\n
+•	Preservatives\n
+•	Work either as:\n
+.Direct microbial poisons or,
+.Reducing the pH to a level that prevents the growth of
+MOs\n
+#Chemicals used today are:\n
+i.	Nitrates and N itJ.•:tes\n
+----to preserve meats\n
+2 .	Su1pn1tes\n
+----to prevent the browning of fruits and vegetables,\n
+----to prevent fungal spoilage
+"         android:textSize="18sp"
+          android:layout_below="@+id/text23"
+          android:padding="15sp"/>
+      <TextView
+          android:id="@+id/text25"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:text="Food Processing"
+          android:textAllCaps="true"
+          android:textColor="#FFAB00"
+          android:textSize="18sp"
+          android:layout_below="@+id/text24"
+          android:padding="15sp"/>
+      <TextView
+          android:id="@+id/text26"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:text="•Food processing is the set of methods and  techniques used to transform raw ingredients  into food or to transform food  into other  forms  for consumption by humans or animals  either  in the  home  or by the food	processing
+industry. Food processing typically takes clean,harvested  crops or slaughtered	and	butchered animal products and uses these  to produce  attractive,marketable	and often long-life food products. Similar process are used to produce animal feed.
+      "
+          android:textSize="18sp"
+          android:layout_below="@+id/text25"
+          android:padding="15sp"/>
+      <ImageView
+          android:id="@+id/dash10"
+          android:layout_width="400dp"
+          android:layout_height="400dp"
+          android:src="@drawable/dash10"
+          android:layout_below="@+id/text26"
+          android:layout_centerHorizontal="true"/>
+      <TextView
+          android:id="@+id/text27"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:text="Aims of Food Processing:"
+          android:textAllCaps="true"
+          android:textColor="#FFAB00"
+          android:textSize="18sp"
+          android:layout_below="@+id/dash10"
+          android:padding="15sp"/>
+      <TextView
+          android:id="@+id/text28"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:text="1.To extend the shelf life to allow time for distribution, sales and home storage.\n
+2.To increase variety in the diet by providing  a range of attractive flavours, colours, aromas and textures in food (collectively known as eating quality, sensory characteristics or organoleptic quality);\n
+3.To provide the nutrients required for health (termed nutritional quality of a food).\n
+4.To generate income for the manufacturing company.
+"
+          android:textSize="18sp"
+          android:layout_below="@+id/text27"
+          android:padding="15sp"/>
+
+   </RelativeLayout>
+</ScrollView>

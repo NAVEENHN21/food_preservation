@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".refrigeration">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/ref11"
+                android:layout_marginLeft="40dp"/>
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Refrigeration helps in preserving fruits and vegetables by storing at low temperatures to slow down decay and natural metabolic processes. ... Similarly, ice cream, other dairy products, bakery products and beverages need to be stored at low temperatures for long term use."
+                android:textStyle="bold"
+                android:layout_margin="10dp"
+                android:textSize="15sp"
+                android:layout_below="@id/image"/>
+
+            <TextView
+                android:id="@+id/text2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#FFD600"
+                android:text="The three scientifically tested and approved methods of bottling for home food preservation are"
+                android:textStyle="bold"
+                android:layout_margin="10dp"
+                android:textSize="15sp"
+                android:layout_below="@id/text1"/>
+            <TextView
+                android:id="@+id/text3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1.Irradiation "
+                android:textColor="#64DD17"
+                android:textAllCaps="true"
+                android:layout_margin="10dp"
+                android:textSize="15sp"
+                android:layout_below="@id/text2"/>
+            <ImageView
+                android:id="@+id/image1"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/ref1"
+                android:layout_marginLeft="40dp"
+                android:layout_below="@id/text3"/>
+
+            <TextView
+                android:id="@+id/text4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="Food spoilage is the process leading to a product becoming either undesirable or unacceptable for human consumption (with associated changes involving alterations in taste, smell, appearance or texture). Interestingly, in the definition by Singleton and Sainsbury (1993) mention is made of the food also sometimes becoming toxic.
+
+Food spoilage may be caused by a variety of mechanisms, including microbial, chemical and physical reactions, and in many cases spoilage can be clearly defined in these distinct terms . Microbial spoilage is often due to the growth and/or metabolism of spoilage bacteria, yeasts or moulds. Chemical spoilage may be via nonmicrobial enzymic action, oxidation or non-enzymic browning. Examples of physical spoilage include water loss; increase in moisture of dry foods; freezer burn; and recrystallisation of frozen foods. However, there are occasions when the cause and/or manifestation of spoilage is a combination of these different types of hazards, e.g. physical changes to the product or its container caused by chemical reactions or microbial growth and metabolism"
+                android:textSize="15sp"
+                android:layout_below="@+id/image1"/>
+            <TextView
+                android:id="@+id/text5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="2.Freeze-drying"
+                android:textColor="#64DD17"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:layout_margin="10dp"
+                android:textSize="15sp"
+                android:layout_below="@id/text4"/>
+            <ImageView
+                android:id="@+id/image2"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/ref2"
+                android:layout_marginLeft="40dp"
+                android:layout_below="@id/text5"/>
+            <TextView
+                android:id="@+id/text6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Freeze Drying is a process in which a completely frozen sample is placed under a vacuum in order to remove water or other solvents from the sample, allowing the ice to change directly from a solid to a vapor without passing through a liquid phase."
+                android:layout_margin="10dp"
+                android:textSize="15sp"
+                android:layout_below="@id/image2"/>
+            <TextView
+                android:id="@+id/text7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3.Carbonation"
+                android:textAllCaps="true"
+                android:textColor="#64DD17"
+                android:layout_margin="10dp"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_below="@id/text6"/>
+            <ImageView
+                android:id="@+id/image3"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/ref3"
+                android:layout_marginLeft="40dp"
+                android:layout_below="@id/text7"/>
+            <TextView
+                android:id="@+id/text8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Carbonation is the chemical reaction of carbon dioxide to give carbonates, bicarbonates, and carbonic acid. In chemistry, the term is sometimes used in place of carboxylation, which refers to the formation of carboxylic acids. In inorganic chemistry and geology, carbonation is common."
+                android:layout_margin="10dp"
+                android:textSize="15sp"
+                android:layout_below="@id/image3"/>
+            <TextView
+                android:id="@+id/text9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tips for Getting the Most Out of Refrigeration"
+                android:layout_margin="10dp"
+                android:textColor="#FFD600"
+                android:textStyle="bold"
+                android:layout_below="@+id/text8"
+                android:textSize="15sp"/>
+            <TextView
+                android:id="@+id/text10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Freezers should be kept at or below -18°C
+In contrast to refrigerators, deep freezers should be packed tightly as this allows the freezer to function better.
+Using appropriate packaging such as freezer bags and plastic containers will help protect foods and prevent
+                freezer burn.
+Avoid placing hot foods straight into the freezer as this will raise the freezer temperature and may adversely affect other foods. Cool foods before freezing.
+Make sure that frozen food is completely thawed before cooking. Food that has been frozen and thawed should never be refrozen."
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:layout_below="@+id/text9"
+                android:textSize="15sp"/>
+        </RelativeLayout>
+    </ScrollView>

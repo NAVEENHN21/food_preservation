@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/button1"
+    tools:context=".bottling">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/bott1"
+                android:layout_marginLeft="40dp"/>
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Home canning or bottling, also known colloquially as putting up or processing, is the process of preserving foods, in particular, fruits, vegetables, and meats, by packing them into glass jars and then heating the jars to create a vacuum seal and kill the organisms that would create spoilage."
+                android:textStyle="bold"
+                android:layout_margin="10dp"
+                android:textSize="15sp"
+                android:layout_below="@id/image"/>
+
+            <TextView
+                android:id="@+id/text2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#FFD600"
+                android:text="The three scientifically tested and approved methods of bottling for home food preservation are"
+                android:textStyle="bold"
+                android:layout_margin="10dp"
+                android:textSize="15sp"
+                android:layout_below="@id/text1"/>
+            <TextView
+                android:id="@+id/text3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1.Spoilage mechanisms "
+                android:textColor="#64DD17"
+                android:textAllCaps="true"
+                android:layout_margin="10dp"
+                android:textSize="15sp"
+                android:layout_below="@id/text2"/>
+            <ImageView
+                android:id="@+id/image1"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/bott2"
+                android:layout_marginLeft="40dp"
+                android:layout_below="@id/text3"/>
+
+            <TextView
+                android:id="@+id/text4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="Food spoilage is the process leading to a product becoming either undesirable or unacceptable for human consumption (with associated changes involving alterations in taste, smell, appearance or texture). Interestingly, in the definition by Singleton and Sainsbury (1993) mention is made of the food also sometimes becoming toxic.
+
+Food spoilage may be caused by a variety of mechanisms, including microbial, chemical and physical reactions, and in many cases spoilage can be clearly defined in these distinct terms . Microbial spoilage is often due to the growth and/or metabolism of spoilage bacteria, yeasts or moulds. Chemical spoilage may be via nonmicrobial enzymic action, oxidation or non-enzymic browning. Examples of physical spoilage include water loss; increase in moisture of dry foods; freezer burn; and recrystallisation of frozen foods. However, there are occasions when the cause and/or manifestation of spoilage is a combination of these different types of hazards, e.g. physical changes to the product or its container caused by chemical reactions or microbial growth and metabolism"
+                android:textSize="15sp"
+                android:layout_below="@+id/image1"/>
+            <TextView
+                android:id="@+id/text5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="2.Microbial contamination"
+                android:textColor="#64DD17"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:layout_margin="10dp"
+                android:textSize="15sp"
+                android:layout_below="@id/text4"/>
+            <ImageView
+                android:id="@+id/image2"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/bott3"
+                android:layout_marginLeft="40dp"
+                android:layout_below="@id/text5"/>
+            <TextView
+                android:id="@+id/text6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Microbiological contamination refers to the non-intended or accidental introduction of infectious material like bacteria, yeast, mould, fungi, virus, prions, protozoa or their toxins and by-products.Microbial contamination happens when a food has been contaminated by microorganisms, including bacteria, viruses, mould, fungi, and toxins. This can happen through various means, for example: Undercooking chicken can give rise to campylobacter, a type of bacteria."
+                android:layout_margin="10dp"
+                android:textSize="15sp"
+                android:layout_below="@id/image2"/>
+            <TextView
+                android:id="@+id/text7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3.Bacteria"
+                android:textAllCaps="true"
+                android:textColor="#64DD17"
+                android:layout_margin="10dp"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_below="@id/text6"/>
+            <ImageView
+                android:id="@+id/image3"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/bott4"
+                android:layout_marginLeft="40dp"
+                android:layout_below="@id/text7"/>
+            <TextView
+                android:id="@+id/text8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The nutritional requirements of most bacteria are chemical elements such as carbon, hydrogen, oxygen, nitrogen, phosphorus, sulfur, magnesium, potassium, sodium, calcium, and iron. The bacteria obtain these elements by utilizing gases in the atmosphere and by metabolizing certain food constituents such as carbohydrates and proteins.
+
+Temperature and pH play a significant role in controlling the growth rates of bacteria. Bacteria may be classified into three groups based on their temperature requirement for optimal growth: thermophiles (55–75 °C, or 130–170 °F), mesophiles (20–45 °C, or 70–115 °F), or psychrotrophs (10–20 °C, or 50–70 °F). In addition, most bacteria grow best in a neutral environment (pH equal to 7).
+
+Bacteria also require a certain amount of available water for their growth. The availability of water is expressed as water activity and is defined by the ratio of the vapour pressure of water in the food to the vapour pressure of pure water at a specific temperature. Therefore, the water activity of any food product is always a value between 0 and 1, with 0 representing an absence of water and 1 representing pure water. Most bacteria do not grow in foods with a water activity below 0.91, although some halophilic bacteria (those able to tolerate high salt concentrations) can grow in foods with a water activity lower than 0.75. Growth may be controlled by lowering the water activity—either by adding solutes such as sugar, glycerol, and salt or by removing water through dehydration.
+
+The oxygen requirements for optimal growth vary considerably for different bacteria. Some bacteria require the presence of free oxygen for growth and are called obligate aerobes, whereas other bacteria are poisoned by the presence of oxygen and are called obligate anaerobes. Facultative anaerobes are bacteria that can grow in both the presence or absence of oxygen. In addition to oxygen concentration, the oxygen reduction potential of the growth medium influences bacterial growth. The oxygen reduction potential is a relative measure of the oxidizing or reducing capacity of the growth medium.
+
+When bacteria contaminate a food substrate, it takes some time before they start growing. This lag phase is the period when the bacteria are adjusting to the environment. Following the lag phase is the log phase, in which population grows in a logarithmic fashion. As the population grows, the bacteria consume available nutrients and produce waste products. When the nutrient supply is depleted, the growth rate enters a stationary phase in which the number of viable bacteria cells remains the same. During the stationary phase, the rate of bacterial cell growth is equal to the rate of bacterial cell death. When the rate of cell death becomes greater than the rate of cell growth, the population enters the decline phase.
+
+A bacterial population is expressed either per gram or per square centimetre of surface area. Rarely does the total bacterial population exceed 1010 cells per gram. A population of less than 106 cells per gram does not cause any noticeable spoilage except in raw milk. Populations of between 106 and 107 cells per gram cause spoilage in some foods; for example, they can generate off-odours in vacuum-packaged meats. Populations of between 107 and 108 cells per gram produce off-odours in meats and some vegetables. At levels above 5 × 107 cells per gram, most foods exhibit some form of spoilage.
+
+When the conditions for bacterial cell growth are unfavourable (e.g., low or high temperatures or low moisture content), several species of bacteria can produce resistant cells called endospores. Endospores are highly resistant to heat, chemicals, desiccation (drying out), and ultraviolet light. The endospores may remain dormant for long periods of time. When conditions become favourable for growth (e.g., thawing of meats), the endospores germinate and produce viable cells that can begin exponential growth."
+                android:layout_margin="10dp"
+                android:textSize="15sp"
+                android:layout_below="@id/image3"/>
+            <TextView
+                android:id="@+id/text9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tips for Getting the Most Out of Homemade Bottling"
+                android:layout_margin="10dp"
+                android:textColor="#FFD600"
+                android:textStyle="bold"
+                android:layout_below="@+id/text8"
+                android:textSize="15sp"/>
+            <TextView
+                android:id="@+id/text10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The best way to preserve foods in glass jars is by cooking them down a bit and them placing them in an air-tight jar to be placed in the refrigerator. Keep foods more fresh with help from a professional chef in this free video on preserving food in glass jars."
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:layout_below="@+id/text9"
+                android:textSize="15sp"/>
+        </RelativeLayout>
+    </ScrollView>

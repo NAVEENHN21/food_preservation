@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<group android:checkableBehavior="single">
+    <item
+        android:id="@+id/dashboard"
+        android:title="DASHBOARD"
+        android:icon="@drawable/dashboard"/>
+    <item
+        android:id="@+id/pickling"
+        android:title="PICKLING"
+        android:icon="@drawable/pickling"/>
+    <item
+        android:id="@+id/salting"
+        android:title="SALTING"
+        android:icon="@drawable/salting"/>
+    <item
+        android:id="@+id/smoking"
+        android:title="SMOKING"
+        android:icon="@drawable/smoking"/>
+    <item
+        android:id="@+id/canning"
+        android:title="CANNING"
+        android:icon="@drawable/cannn"/>
+    <item
+        android:id="@+id/bottling"
+        android:title="BOTTLING"
+        android:icon="@drawable/bottling"/>
+
+    <item
+        android:id="@+id/refrigeration"
+        android:title="REFRIGERATION"
+        android:icon="@drawable/pasteurization"/>
+
+    <item
+        android:id="@+id/dehydration"
+        android:title="DEHYDRATION"
+        android:icon="@drawable/refrigeration"/>
+    <item
+        android:id="@+id/chemicaladditives"
+        android:title="CHEMICAL ADDITIVES"
+        android:icon="@drawable/sterilization"/>
+</group>
+</menu>

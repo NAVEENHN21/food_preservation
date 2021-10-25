@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".pickling">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/pickling1"
+            android:layout_marginLeft="40dp"/>
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pickling is defined as the process of preserving a food by either anaerobic fermentation in brine or immersion in vinegar. The resulting food is called a pickle. Pickling can add a special flavor to food by themselves or mixed in with other foods.Pickling is a fairly easy way to test the food preservation waters. Following a recipe and utilizing fresh produce can result in wonderful treats for the family in the fall and winter months. Remember: Pickled products will need to “rest” once they have been processed to allow the brine, spices and flavors to blend and become more delicious."
+            android:textStyle="bold"
+            android:layout_margin="10dp"
+            android:textSize="15sp"
+            android:layout_below="@id/image"/>
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFD600"
+            android:text="The two scientifically tested and approved methods of pickling for home food preservation are"
+            android:textStyle="bold"
+            android:layout_margin="10dp"
+            android:textSize="15sp"
+            android:layout_below="@id/text1"/>
+        <TextView
+            android:id="@+id/text3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1.anaerobic fermentation in brine "
+            android:textColor="#64DD17"
+            android:textAllCaps="true"
+            android:layout_margin="10dp"
+            android:textSize="15sp"
+            android:layout_below="@id/text2"/>
+        <ImageView
+            android:id="@+id/image1"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/pickling2"
+            android:layout_marginLeft="40dp"
+            android:layout_below="@id/text3"/>
+
+        <TextView
+            android:id="@+id/text4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="I hear that much controversy is brewing on the internet over vessels for fermenting vegetables, and the implications of whether or not they are totally anaerobic. I have made hundreds of batches of kraut in all sorts of vessels (most of them open crocks), and I have witnessed, consistently, that it doesn’t matter. Each vessel has advantages and disadvantages. No particular type of vessel is critical. People have been fermenting vegetables for millennia in crocks open and closed, in pits and trenches, in sealed and open vessels. It can be done many different ways. The only critical factor is that the vegetables be submerged under brine.
+
+Whenever vegetables are submerged under brine, lactic acid bacteria (which are anaerobic) develop. Whether or not the vessel protects the surface of the ferment from atmospheric oxygen, the microbial development under the brine is anaerobic lactic acid bacteria. In the vocabulary of microbiology, lactic acid bacteria are “facultative” in that they that do not require oxygen, but are not inhibited by its presence; in contrast, certain other bacteria (for example Clostridium botulinum) are “obligate” anaerobes that require a perfectly anaerobic environment.
+
+The only difference air exposure or lack thereof makes is whether aerobic organisms like yeasts and molds can develop on the surface. The barrel of kraut I have had fermenting in the cellar for six months now is good and sour, and I have been eating from it and sharing it widely for months. Each time I remove the cloth tied down over it, and the jugs of water weighing it down, and the two semi-circular oak boards that rest upon the surface, I skim off a moldy layer around the edges and down the middle, wherever the surface was exposed to air. I toss the moldy layer into the compost, and the kraut beneath it looks, smells, and tastes wonderful. Many people have reported how good it made them feel and not a single person has complained of any problems from it, ever. The brine protects the vegetables from the aerobic organisms that grow on the exposed surfaces. The ferment is a lactic acid ferment, even though the surface is aerobic. Surface growth should be scraped away because if it is allowed to grow it can diminish the acidity of the kraut and affect flavor and texture, but if you keep periodically scraping mold away, the ferment beneath is fine.
+
+I have also fermented in Harsch crocks, Pickl-Its, Mason Jars, and many other types of vessels. Mason jars become highly pressurized if you fail to loosen them to release pressure. Even if they are not perfectly airtight, they permit little airflow. Many times I have witnessed carbon dioxide force its way through the airtight seal by contorting the tops to provide an escape for the pressure. The various air-locked designs that allow pressure to release while preventing air from entering the system are generally effective at preventing aerobic surface growth. Yet still I generally do not use them because I love to look at and smell and taste my krauts as they develop, and each time you open an air-locked vessel you defeat its purpose, allowing air in. The vessels are effective, but are not well-suited to my desire to taste at frequent intervals. Different vessels suit different needs and desires. No one type of vessel is essential for fermenting vegetables. I have had success using every type of vessel I could think of. As long as you can keep vegetables submerged, lactic acid bacteria will develop. The process is extremely versatile."
+            android:textSize="15sp"
+            android:layout_below="@+id/image1"/>
+        <TextView
+            android:id="@+id/text5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="2.immersion in vinegar"
+            android:textColor="#64DD17"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:layout_margin="10dp"
+            android:textSize="15sp"
+            android:layout_below="@id/text4"/>
+        <ImageView
+            android:id="@+id/image2"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/pickling3"
+            android:layout_marginLeft="40dp"
+            android:layout_below="@id/text5"/>
+        <TextView
+            android:id="@+id/text6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Vinegar pickling (or quick pickling) is a simple process. Water, salt and vinegar (and sometimes sugar) are combined and heated and then fruit or vegetables are immersed in that liquid. However, there is a lot of variation within those ingredients that needs to be taken into account.
+
+According to Eugenia Bone, author of Well-Preserved: Recipes and Techniques for Putting Up Small Batches of Seasonal Foods, the most important thing about vinegar is its five percent acidity, which causes changes in flavor and texture and acts as a preservative. In terms of which vinegar to use, it depends on the desired taste and color of your pickles. Distilled white vinegar and white wine vinegar are most popular because they won't affect the color of most vegetables (red onions, however, will turn bright pink when exposed to white vinegar). The other common option is cider vinegar, which offers a milder flavor, but causes the produce to darken.
+
+Next, there's the question of salt. According to Bone, the best salts to use for pickling are pickling (or canning) salt or kosher salt. Pickling salt is pure granulated salt and is free of anti-caking agents, which can cause the pickling liquid to turn cloudy. Kosher salt, however, has large crystals, which do not dissolve as quickly as pickling salt. Either salt is fine, but kosher salt will take more effort to use.
+
+The water you use to pickle can also make a big difference. According to Bone, hard water, which is rich in minerals, and heavily chlorinated water can both interfere with the pickling process. But if you're comfortable drinking the water, it's probably fine for your pickling project."
+            android:layout_margin="10dp"
+            android:textSize="15sp"
+            android:layout_below="@id/image2"/>
+        <TextView
+            android:id="@+id/text7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The Advantages of Pickling Foods"
+            android:textAllCaps="true"
+            android:textColor="#64DD17"
+            android:layout_margin="10dp"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_below="@id/text6"/>
+        <ImageView
+            android:id="@+id/image3"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/pickling4"
+            android:layout_marginLeft="40dp"
+            android:layout_below="@id/text7"/>
+        <TextView
+            android:id="@+id/text8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pickling was developed as a means of food preservation. Most pickling occurs in an acidic solution, such as vinegar, or a saltwater solution, called brine. Although the term pickling may bring to mind pickled cucumbers, pickling applies to variety of foods, including meats. Pickling offers several advantages over fresh storage, particularly with economic benefits. However, if you choose to pickle foods, you should carefully study preservation techniques. To prevent illness, you must strictly control or eliminate the bacteria in pickled products.The primary advantage of pickling is food preservation; pickling prevents spoilage and greatly extends shelf life. Pickling as food preservation was particularly important in agricultural societies before household refrigeration. However, even with refrigeration, many foods last only days, weeks or months; pickled foods often last several years. In this respect, few preservation and storage methods compare to pickling. Those that rival pickling include canning, drying and freezing.Freezing is the most common long-term storage food storage method. According to a report from Colorado State University, canning and pickling generally are more economical than freezing. Whereas freezing food requires a continuous supply of electricity, canned and pickled products remain stable at room temperature. Note that the economic advantages of pickling vary according to the type of ingredients that you are pickling, the quantities produced during a pickling session and cost of the containers or equipment"
+            android:layout_margin="10dp"
+            android:textSize="15sp"
+            android:layout_below="@id/image3"/>
+        <TextView
+            android:id="@+id/text9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tips for Getting the Most Out of Homemade Canning"
+            android:layout_margin="10dp"
+            android:textColor="#FFD600"
+            android:textStyle="bold"
+            android:layout_below="@+id/text8"
+            android:textSize="15sp"/>
+        <TextView
+            android:id="@+id/text10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pickling is a global culinary art. If you were to go on an international food-tasting tour, you’d find pickled foods just about everywhere. You might sample kosher cucumber pickles in New York City, chutneys in India, kimchi in Korea, miso pickles in Japan, salted duck eggs in China, pickled herring in Scandinavia, corned beef in Ireland, salsas in Mexico, pickled pigs feet in the southern United States, and much, much more.
+
+What makes a pickle a pickle? On a most general level, pickles are foods soaked in solutions that help prevent spoilage.
+
+There are two basic categories of pickles. The first type includes pickles preserved in vinegar, a strong acid in which few bacteria can survive. Most of the bottled kosher cucumber pickles available in the supermarket are preserved in vinegar.
+
+The other category includes pickles soaked in a salt brine to encourages fermentation—the growth of good bacteria that make a food less vulnerable to bad spoilage-causing bacteria. Common examples of fermented pickles include kimchi and many cucumber dill pickles.
+
+Pickling is not only an international food-preservation technique, it’s also an ancient one. For thousands of years, our ancestors have explored ways to pickle foods, following an instinct to secure surplus food supplies for long winters, famine, and other times of need. Historians know, for instance, that over two thousand years ago, workers building the Great Wall of China ate sauerkraut, a kind of fermented cabbage.
+
+But pickling foods does much more than simply preserve them. It can also change their taste and texture in a profusion of interesting—and yummy—ways. It’s no surprise that cultures across the globe enjoy such an assortment of pickled foods, as you would discover on your international food expedition. In fact, food experts say, the evolution of diverse pickled foods in different cultures has contributed to unique cultural food preferences, such as spicy sour tastes in Southeast Asia and acidic flavors in eastern Europe."
+            android:layout_margin="10dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text9"
+            android:textSize="15sp"/>
+    </RelativeLayout>
+</ScrollView>

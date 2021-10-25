@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/navee/Documents/AICTE/foodpreservation/app/src/main/res/drawable-anydpi/dehydration.xml" value="0.2324074074074074" />
+        <entry key="..\:/Users/navee/Documents/AICTE/foodpreservation/app/src/main/res/layout/activity_main.xml" value="0.13125" />
+        <entry key="..\:/Users/navee/Documents/AICTE/foodpreservation/app/src/main/res/layout/fragment_bottling.xml" value="0.1793478260869565" />
+        <entry key="..\:/Users/navee/Documents/AICTE/foodpreservation/app/src/main/res/layout/fragment_canning.xml" value="0.1793478260869565" />
+        <entry key="..\:/Users/navee/Documents/AICTE/foodpreservation/app/src/main/res/layout/fragment_chemicaladditives.xml" value="0.1793478260869565" />
+        <entry key="..\:/Users/navee/Documents/AICTE/foodpreservation/app/src/main/res/layout/fragment_dashboardfragment.xml" value="0.14993537268418786" />
+        <entry key="..\:/Users/navee/Documents/AICTE/foodpreservation/app/src/main/res/layout/fragment_dehydration.xml" value="0.1793478260869565" />
+        <entry key="..\:/Users/navee/Documents/AICTE/foodpreservation/app/src/main/res/layout/fragment_pasteurization.xml" value="0.1793478260869565" />
+        <entry key="..\:/Users/navee/Documents/AICTE/foodpreservation/app/src/main/res/layout/fragment_pickling.xml" value="0.1793478260869565" />
+        <entry key="..\:/Users/navee/Documents/AICTE/foodpreservation/app/src/main/res/layout/fragment_refrigeration.xml" value="0.1793478260869565" />
+        <entry key="..\:/Users/navee/Documents/AICTE/foodpreservation/app/src/main/res/layout/fragment_salting.xml" value="0.1375" />
+        <entry key="..\:/Users/navee/Documents/AICTE/foodpreservation/app/src/main/res/layout/fragment_smoking.xml" value="0.1793478260869565" />
+        <entry key="..\:/Users/navee/Documents/AICTE/foodpreservation/app/src/main/res/layout/fragment_sterilization.xml" value="0.1793478260869565" />
+        <entry key="..\:/Users/navee/Documents/AICTE/foodpreservation/app/src/main/res/menu/menu_drawer.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

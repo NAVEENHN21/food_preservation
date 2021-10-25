@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".salting">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/salting2"
+        android:layout_marginLeft="40dp"/>
+<TextView
+    android:id="@+id/text1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="★  Salting is a process where the common salt (NaCl), sodium chloride, is used as a preservative that penetrates the tissue; hence slows the bacterial growth and deactivates the enzymes.
+                                                                                      ★One of these is salting. Dry salting, brine salting and mixed salting are commonly used methods in salting of fish."
+    android:layout_margin="10dp"
+    android:layout_below="@id/image"
+    android:textSize="15sp"/>
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFD600"
+        android:text="There are three main salting methods:"
+        android:textStyle="bold"
+        android:layout_margin="10dp"
+        android:textSize="15sp"
+        android:layout_below="@id/text1"/>
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1. Kench salting:"
+        android:textColor="#64DD17"
+        android:textAllCaps="true"
+        android:layout_margin="10dp"
+        android:textSize="15sp"
+        android:layout_below="@id/text2"/>
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/kench"
+        android:layout_marginLeft="40dp"
+        android:layout_below="@id/text3"/>
+
+    <TextView
+        android:id="@+id/text4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="★ In kench salting, the fish are mixed with dry crystalline salt and piled up, the brine which forms as the salt takes water from the fish being allowed to drain away. This method is especially popular for large lean fish species. Kenching can be carried out in shallow concrete tanks fitted with a drain, or on raised platforms or racks of approximately 1 m2 area and 8-10 cm off the ground. Starting at the centre of the rack, 2 or 3 rows of prepared fish are laid flesh side up over a bed of salt. Salt is then sprinkled or rubbed all over the fish, more being put on the thick parts of the fish than on the thin parts. Whenever scores have been made, these should be filled with salt. A pile of fish is built up by moving outwards from the centre, and sprinkling each layer of fish with salt before covering with the next layer. To ensure good drainage, the centre of the pile should be about 10 cm higher than the outside edges and it should not be higher than about 2 m."
+        android:layout_margin="10dp"
+        android:textSize="15sp"
+        android:layout_below="@+id/image1"/>
+    <TextView
+        android:id="@+id/text5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="2. Pickle curing"
+        android:textColor="#64DD17"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:layout_margin="10dp"
+        android:textSize="15sp"
+        android:layout_below="@id/text4"/>
+        <ImageView
+            android:id="@+id/image2"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/salting1"
+            android:layout_marginLeft="40dp"
+            android:layout_below="@id/text5"/>
+        <TextView
+            android:id="@+id/text6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="In pickle curing, a barrel or tank is used to hold the brine which forms as the salt mixes with the water contained in the fish. From 20 to 35 parts by weight of salt to 100 parts by weight of fish may be used depending on the cure required. Fatty fish, such as mackerel, are commonly pickle-cured.
+
+In this salting method, a layer of dry salt is spread over the bottom of the tank upon which the first layer of fish is laid. There is, however, no need to stack fish higher in the centre as drainage is not required. The layers of salt and fish are stacked up, care being taken to ensure that no fish are overlapped without a salt layer between them since this could cause the fish to stick together. As the pile is built up, the salt layers should become thicker. The top layer of fish must be placed skin side uppermost. A wooden cover should be placed on this top layer so that weights can be used to keep the fish below the surface of the brine which forms.
+
+Pickle curing is recommended in preference to kench salting as it produces a more even salt penetration and provides a better protection of the fish against insects and animals since they are covered with brine."
+            android:layout_margin="10dp"
+            android:textSize="15sp"
+            android:layout_below="@id/image2"/>
+        <TextView
+            android:id="@+id/text7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. Brine salting"
+            android:textColor="#64DD17"
+            android:textAllCaps="true"
+            android:layout_margin="10dp"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_below="@id/text6"/>
+        <ImageView
+            android:id="@+id/image3"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/salting3"
+            android:layout_marginLeft="40dp"
+            android:layout_below="@id/text7"/>
+        <TextView
+            android:id="@+id/text8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="In brining, or brine salting, the fish are immersed in a solution of salt and water. By varying the strength of the brine and the curing period, it is possible to control the salt concentration in the final product. The method is commonly used in developed countries when a smoked product is to be made and the salt concentration required in the final product must be lower than 3% (e.g. as for hot-smoked mackerel). Brine salting may be used advantageously in developing countries as the process is more uniform and controlable than the dry salting techniques.
+
+A fully saturated brine contains about 360 g of salt to each litre of water (3 lb 10 oz of salt per Imperial Gallon). A sack of salt should be hung in the brine to ensure that the latter remains at full strength. Full strength or saturated brine is called a 100 brine. A 10 brine - which is made up by mixing 1 part of 100° brine with 9 parts of water - is sometimes used to soak fish before salting."
+            android:layout_margin="10dp"
+            android:textSize="15sp"
+            android:layout_below="@id/image3"/>
+        <TextView
+            android:id="@+id/text9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="GET READY TO SALTING!"
+            android:layout_margin="10dp"
+            android:textColor="#FFD600"
+            android:textStyle="bold"
+            android:layout_below="@+id/text8"
+            android:textSize="15sp"/>
+        <TextView
+            android:id="@+id/text10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="-> Salt dries food. Salt draws water out of food and dehydrates it. All living things require water and cannot grow in the absence of it, including the bacteria which can cause food poisoning. Salt is used to preserve beef jerky by keeping it dry, and it prevents butter from spoiling by drawing water out, leaving just the fat.
+Salt kills microbes. High salt is toxic to most (not all) microbes because of the effect of osmolarity, or water pressure. Water diffuses between cells in the environment so that the concentration of solutes (such as salt) is the same on both sides of the cell. In very high salt solutions, many microbes will rupture due to the difference in pressure between the outside and inside of the organism. High salt can also be toxic to internal processes of microbes, affecting DNA and enzymes. Solutions high in sugar also have the same effects on microbes, which is why it is used as a preservative of foods, such as jams and jellies."
+            android:layout_margin="10dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text9"
+            android:textSize="15sp"/>
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".chemicaladditives">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/che1"
+                android:layout_marginLeft="40dp"/>
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Preservative for food may be defined as any chemical compound and/or process, when applied to food, retard alterations caused by the growth of microorganisms or enable the physical properties, chemical composition and nutritive value to remain unaffected by microbial growth. Some chemicals have been used traditionally since several decades as direct or indirect inhibitors of microbial growth and are still widely used despite their limitations
+
+The majority of food preservation operations used today also employ some kind of chemical additive to reduce spoilage. Of the many dozens of chemical additives available, all are designed either to kill or retard the growth of pathogens or to prevent or retard chemical reactions that result in the oxidation of foods."
+                android:textStyle="bold"
+                android:layout_margin="10dp"
+                android:textSize="15sp"
+                android:layout_below="@id/image"/>
+
+            <TextView
+                android:id="@+id/text2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#FFD600"
+                android:text="The three scientifically tested and approved methods of Chemical Additives for home food preservation are"
+                android:textStyle="bold"
+                android:layout_margin="10dp"
+                android:textSize="15sp"
+                android:layout_below="@id/text1"/>
+            <TextView
+                android:id="@+id/text3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1.Benzoic acid and its salt "
+                android:textColor="#64DD17"
+                android:textAllCaps="true"
+                android:layout_margin="10dp"
+                android:textSize="15sp"
+                android:layout_below="@id/text2"/>
+            <ImageView
+                android:id="@+id/image1"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/che2"
+                android:layout_marginLeft="40dp"
+                android:layout_below="@id/text3"/>
+
+            <TextView
+                android:id="@+id/text4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="Widely use as an antimicrobial agent. Benzoate is more effective against yeasts and bacteria than molds. Antimicrobial activity is achieved by inhibition in enzymatic system of microbial cells, affecting acetic acid metabolism, citric acid cycle and oxidative phosphorylation.
+
+Antimicrobial activity is affected by pH of medium The maximum inhibition occurs at pH value of 2.5 to 4.0 and it decreases when pH rises above 4.5.
+
+The food products preserved with the benzoate include fruit juices and drinks, salads, jams and jellies, pickles, dried fruits and preserves, ketch up and sauce, syrup, carbonated beverages, bakery items, salad dressings, margarine and other fat spreads, spices."
+                android:textSize="15sp"
+                android:layout_below="@+id/image1"/>
+            <TextView
+                android:id="@+id/text5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="2.Sulphur dioxide and sulfites"
+                android:textColor="#64DD17"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:layout_margin="10dp"
+                android:textSize="15sp"
+                android:layout_below="@id/text4"/>
+            <ImageView
+                android:id="@+id/image2"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/che3"
+                android:layout_marginLeft="40dp"
+                android:layout_below="@id/text5"/>
+            <TextView
+                android:id="@+id/text6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sulphur dioxide (SO2) gas is one of the oldest antimicrobial agents. It is a colourless, nonflammable gaseous compound or liquid under pressure with a suffocating pungent odour. When dissolved in water of foods, it yields sulphurous acid and its ions, owing to its solubility in water.
+
+Sulphite salts such as sodium sulphite, sodium bisulphite, potassium sulphite, potassium bisulphite, sodium metabisulphite, potassium metabisulphite used as preservatives. When dissolved in water, form sulphurous acid, bisulphite and ions. Sulphurous acid formed from these compounds is an active antimicrobial substance. The effectiveness of sulphurous acid is enhanced at low pH values. Antimicrobial activity of sulfites against yeasts, molds and bacteria is selective, with certain species being more sensitive to inhibition them others. Bacteria are generally more sensitive to inhibition than yeasts and molds. In addition to antimicrobial action, they are also used, to prevent enzymatic and non enzymatic changes as well as discoloration in some foods. Sulphur dioxide and sulphites are used in fruit products such as fruit juice concentrate, squashes, pickles and chutneys."                android:layout_margin="10dp"
+                android:textSize="15sp"
+                android:layout_below="@id/image2"/>
+            <TextView
+                android:id="@+id/text7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3.Propionic acid and its salts"
+                android:textAllCaps="true"
+                android:textColor="#64DD17"
+                android:layout_margin="10dp"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_below="@id/text6"/>
+            <ImageView
+                android:id="@+id/image3"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/che4"
+                android:layout_marginLeft="40dp"
+                android:layout_below="@id/text7"/>
+            <TextView
+                android:id="@+id/text8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Propionic acid and its salts (Ca and Na) are used most extensively in the prevention of mold growth and rope development in baked goods and for mold inhibition in many cheese foods and spreads. They are more effective against molds as compared to yeasts and bacteria. Propionates has an upper pH limit for activity around 5 to 6. Sorbic acid and its salts (calcium, potassium or sodium salts) are effective antimicrobial agents against yeast and molds, as well as bacteria. They are less effective against bacteria. Sorbate has an upper pH limit for activity around 6.0-6.5. The food products preserved with sorbates are carbonated beverages, salad dressings, tomato products, jams, jellies, syrup, candy and chocolate syrup, cheese, sausages, smoked fish, fruit juices, grains, breads and cakes. "
+                android:layout_margin="10dp"
+                android:textSize="15sp"
+                android:layout_below="@id/image3"/>
+            <TextView
+                android:id="@+id/text9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tips for Getting the Most Out of Homemade Chemical Additives."
+                android:layout_margin="10dp"
+                android:textColor="#FFD600"
+                android:textStyle="bold"
+                android:layout_below="@+id/text8"
+                android:textSize="15sp"/>
+            <TextView
+                android:id="@+id/text10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Preservatives are added to foods to help prevent or slow spoilage due to bacteria, molds, fungi or yeast, as well as to slow or prevent changes in the food's color, flavor or texture, delay rancidity, and maintain freshness."                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:layout_below="@+id/text9"
+                android:textSize="15sp"/>
+        </RelativeLayout>
+    </ScrollView>
